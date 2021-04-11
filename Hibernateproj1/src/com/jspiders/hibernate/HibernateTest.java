@@ -10,11 +10,6 @@ import org.hibernate.cfg.Configuration;
 
 import com.jspiders.dto.userDetails128;
 
-
-
-
-
-
 public class HibernateTest {
 
 	public static void main(String[] args) {
