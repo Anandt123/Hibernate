@@ -16,7 +16,7 @@ public class HibernateTest {
 	public static void main(String[] args) {
 		
 		userDetails128 user= new userDetails128();
-		user.setUserName("vishal");
+		user.setUserName("Anand");
 		user.setJoinedDate(new Date());
 		user.setUserId(1234);
 		
@@ -42,7 +42,7 @@ public class HibernateTest {
 		user.getListofAddress().add(a3);
 		
 		userDetails128 user1= new userDetails128();
-		user1.setUserName("Anand");
+		user1.setUserName("Ajay");
 		user1.setJoinedDate(new Date());
 		user1.setUserId(1234);
 		
