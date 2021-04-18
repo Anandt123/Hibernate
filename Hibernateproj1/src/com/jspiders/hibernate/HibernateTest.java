@@ -19,7 +19,6 @@ public class HibernateTest {
 		user.setJoinedDate(new Date());
 		user.setUserId(1234);
 		
-        
 	SessionFactory sessionFactory=	new Configuration().configure().buildSessionFactory();
 	Session session=sessionFactory.openSession();
 	session.beginTransaction();
